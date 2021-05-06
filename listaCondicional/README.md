@@ -1,4 +1,4 @@
-# Lista 2 - Variáveis e Operadores
+# Lista 2 - Estruturas Condicionais
 
 1. Faça um programa que receba três inteiros e diga qual deles é o maior.
 
