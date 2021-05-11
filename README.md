@@ -6,3 +6,4 @@ Exercícios desenvolvidos durante o Bloco I - Java do curso de Desenvolvedor Jú
 2. Lista 2: Estruturas Condicionais
 3. Lista 3: Laços
 4. Lista 4: Vetores e Matrizes
+5. Lista 5: OOP
