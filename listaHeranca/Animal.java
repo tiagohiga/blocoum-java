@@ -1,24 +1,14 @@
 package listaHeranca;
 
-public class Animal {
+public abstract class Animal {
 	private String nome;
 	private int idade;
-	private String somEmitido;
-	private int podeCorrer;
-	private boolean sobeArvores;
+	abstract public void somEmitido(String som);
+	abstract public void movimentarAnimal(String mov);
 	
-	public Animal(String nome, int idade, String somEmitido, int podeCorrer) {
+	public Animal(String nome, int idade) {
 		this.nome = nome;
 		this.idade = idade;
-		this.somEmitido = somEmitido;
-		this.podeCorrer = podeCorrer;
-	}
-	
-	public Animal(String nome, int idade, String somEmitido, boolean sobeArvores) {
-		this.nome = nome;
-		this.idade = idade;
-		this.somEmitido = somEmitido;
-		this.sobeArvores = sobeArvores;
 	}
 
 	public String getNome() {
@@ -35,30 +25,6 @@ public class Animal {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
-	}
-
-	public String getSomEmitido() {
-		return somEmitido;
-	}
-
-	public void setSomEmitido(String somEmitido) {
-		this.somEmitido = somEmitido;
-	}
-
-	public int getPodeCorrer() {
-		return podeCorrer;
-	}
-
-	public void setPodeCorrer(int podeCorrer) {
-		this.podeCorrer = podeCorrer;
-	}
-
-	public boolean isSobeArvores() {
-		return sobeArvores;
-	}
-
-	public void setSobeArvores(boolean sobeArvores) {
-		this.sobeArvores = sobeArvores;
 	}
 	
 }
